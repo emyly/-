@@ -1,0 +1,27 @@
+
+:global{
+  .summaryTable{
+    .bigFont{
+      font-size: 30px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .lh{
+      line-height:25px;
+    }
+    .bigTd{
+      width:230px;
+    }
+    .smTd{
+      font-family: SourceHanSansCN-Regular;
+      font-size: 35px!important;
+      text-align: center!important;
+      font-weight: 900;
+      width: 30px;
+      padding: 0!important;
+    }
+    td{
+      text-align: center !important;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+:global{
+  .outBoundDetailStyle{
+    table th,table tr{
+      font-family: SourceHanSansCN-Regular !important;
+      text-align: center !important;
+    }
+    table tr td {
+      font-size: 14px !important;
+      color: #53504F !important;
+      letter-spacing: 0.23px !important;
+      min-width: 6rem;
+      cursor: default;
+    }
+    table th{
+      background: #364356 !important;
+      font-size: 18px !important;
+      color: #6D93C1 !important;
+      letter-spacing: 0.26px;
+    }
+    .outBound{
+      border: 1px solid #EAECEE !important;
+      padding: 0 !important;
+    }
+  }
+
+}

@@ -1,0 +1,188 @@
+:global{
+  div,table{
+    font-family: SourceHanSansCN-Bold!important;
+  }
+
+  .DivPage{
+    page-break-inside: avoid;
+  }
+  .pageBreakPage{
+    page-break-after: always !important;
+  }
+  .hide{display:table-header-group !important}
+  #outWarehouseDetailTable{
+    width:100%;
+    text-align: left;
+    margin:0 auto;
+    border-collapse: collapse;
+    #logistics_tableOne{
+      border-top:none !important;
+    }
+    #logistics_tableTow{
+      border-top: 1px solid grey !important;
+    }
+
+    tr td,tr th{
+      font-family: SourceHanSansCN-Bold;
+      text-align: left!important;
+      letter-spacing: 0.23px;
+      border:1px solid #808080!important; ;
+      white-space: normal;
+      padding-left: 10px;
+      padding-right: 0;
+      height: 30px;
+      color: #53504F;
+    }
+    .tableWidth:nth-of-type(1){
+      width: 7%;
+    }
+    .tableWidth:nth-of-type(2){
+      width: 10.8%;
+    }
+    .tableWidth:nth-of-type(3){
+      width: 18.7%;
+    }
+    .tableWidth:nth-of-type(4){
+      width: 17%;
+    }
+    .tableWidth:nth-of-type(5){
+      width: 9.7%;
+    }
+    .tableWidth:nth-of-type(6){
+      width: 9.7%;
+    }
+    .tableWidth:nth-of-type(7){
+      width: 6.7%;
+    }
+    .tableWidth:nth-of-type(8){
+      width: 4.7%;
+    }
+  }
+  #tableHederStyle{
+    font-size: 16px;
+  }
+  tr th{
+    color: #4D4D4D;
+    letter-spacing: 0.26px;
+  }
+  .logisticsPrintName{
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 0.71px;
+    padding-left: 1.9rem;
+  }
+  .LogisticsDeliveryPrint_totalCount{
+    font-size: 36px;
+    color: #000000;
+    letter-spacing: 1.28px;
+  }
+  .LogisticsDeliveryPrint_headner{
+    width: 100%;
+    height: 5.5rem;
+    display: flex;
+    background: #FFFFFF;
+    .LogisticsDeliveryPrint_headner_title{
+      font-size: 24px;
+      color: #364356;
+      letter-spacing: 0.85px;
+      text-align: center;
+      line-height: 5.5rem;
+      width: 100%;
+
+    }
+  }
+  .LogisticsDeliveryPrint_headerInfo{
+    width: 100%;
+    // display: flex;
+    // flex-direction: row;
+
+    .LogPrint_info{
+      height:12rem;
+      // display: flex;
+      // flex-direction: column;
+      .LogisticsDeliveryPrint_headerInfo_info_section{
+        display: flex;
+        flex-direction: row;
+        margin-top: 1.1rem;
+        .section_title{
+          font-size: 16px;
+          color: #979797;
+          line-height: 16px;
+        }
+        .section_content{
+          color: #4A4A4A;
+          line-height: 16px;
+          padding-left: 10px;
+          font-size: 16px;
+          text-align: left;
+          white-space: normal
+        }
+      }
+    }
+  }
+  .LogisticsDeliveryPrint_contentInfo{
+    padding: 16px;
+
+  }
+  .production_title1{
+    padding-bottom: 10px;
+    width: 100%;
+    height:30px;
+    line-height: 30px;
+    padding-left: 10px;
+    font-size:20px;
+    font-weight:bold;
+    color:#000000;
+    margin-left: 1.9rem;
+  }
+  .tableA4{
+    .A4ZCZBH{
+    font-size: 4px !important;
+    white-space:nowrap !important;
+  }
+    td{
+      font-size: 8px !important;
+    }
+    th{
+      font-size: 9px !important;
+    }
+  }
+  .A4fontSize{
+    font-size: 10px !important;
+    line-height: 7px !important;
+  }
+
+  .A4TitleFont{
+    font-size: 16px !important;
+  }
+  .A4production_title1{
+    font-size: 12px !important;
+  }
+  .headerHeight{
+    height: 9.5rem !important;
+  }
+  .headerHeight2{
+    height: 6rem !important;
+  }
+  #logBarcode{
+    img{
+      height:40px;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .logistics_divOne{
+    height:40px;
+    line-height: 40px;
+    border-bottom: none;
+    border-top: 1px solid grey;
+    border-right:1px solid grey ;
+    border-left: 1px solid grey;
+    color: #53504F;
+    font-size: 16px;
+    padding-left: 10px;
+  }
+  
+
+
+}

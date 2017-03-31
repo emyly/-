@@ -1,0 +1,80 @@
+
+:global{
+  .choose-goods-auth-dialog{
+    height: 0px;
+    width: 0px;
+    background: blue;
+  }
+  .decrease,.increase{
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: 700;
+    height: 100%;
+    line-height: 100%;
+    border: none;
+    display: inline-block;
+    width: 1.15rem;
+    color: #b3b3b3;
+    background-color: #fff;
+    text-align: center;
+    outline: none;
+  }
+  .decrease{
+    float: left;
+  }
+  .increase{
+    float: right;
+  }
+  .symbol{
+    width: 72px;
+    margin: 0 auto;
+  }
+  .userDefinedSelectFieldStyle{
+
+  }
+  .smallTitle{
+    font-family: SourceHanSansCN-Medium;
+    font-size: 14px;
+    color: rgba(150,150,150,0.87);
+    letter-spacing: 0px;
+  }
+  .bigTitle{
+    font-family: SourceHanSansCN-Medium;
+    font-size: 20px;
+    color: rgba(0,0,0,0.87);
+    letter-spacing: 0px;
+    line-height: 20px;
+  }
+  .searchGoodField{
+    height:35px;
+  }
+  .searchWrapperDiv{
+    background: #E5E8ED;
+    border-radius: 2px;
+    height:35px;
+    width:30%;
+    position: absolute;
+    top: 70px;
+    right: 35px;
+    img{
+      height:27px;
+      cursor: pointer;
+    }
+  }
+  .selector{
+    height:60px;
+    display: flex;
+    flex-direction: row;
+    background: #EEEEEE;
+    box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.12), inset 0px 1px 0px 0px rgba(0,0,0,0.12);
+  }
+  .selector>div:not(.verticalLine){
+    flex: 1;
+  }
+  .verticalLine{
+    border-left: 2px solid #ddd;
+    height: 40px;
+    top: 7px;
+    position: relative;
+  }
+}

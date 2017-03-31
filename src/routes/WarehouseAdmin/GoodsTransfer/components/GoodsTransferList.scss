@@ -1,0 +1,51 @@
+:global {
+  .sourceDataRow{
+    th{
+      text-align: center !important;
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+  }
+  .goodsTransferDataRow{
+
+    tr,tr td{
+      font-family: Roboto-Medium;
+      font-size: 12px;
+      color: #788BA7;
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+      height: 36px !important;
+      line-height: 36px !important;
+    }
+    tr td:nth-of-type(4){
+      text-align: right !important;
+    }
+  }
+  .goodsTransferDataRow:nth-child(2n+1){
+    background-color: #fff !important;
+    tr td{
+      background-color: inherit !important;
+    }
+  }
+  .goodsTransferDataRow:nth-child(2n){
+    background-color: rgba(207, 228, 255, 0.3) !important;
+    tr td{
+      background-color: inherit !important;
+    }
+  }
+  .targetDataGrid{
+    thead tr th,tbody tr td{
+      font-family: Roboto-Medium;
+      font-size: 12px!important;
+      color: #788BA7!important;
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+      height: 36px !important;
+      line-height: 36px !important;
+    }
+    thead tr th{
+      text-align:center !important;
+      color: #fff!important
+    }
+  }
+}

@@ -1,0 +1,26 @@
+:global{
+  .snackBar_info div
+  {
+    background-color: #B3E5FC !important;
+  }
+  .snackBar_info div div span{
+    color: #2C2C2C;
+  }
+  .snackBar_warning div
+  {
+    background-color:#FFF59D !important;
+  }
+  .snackBar_warning div div span
+  {
+    color:#2C2C2C;
+  }
+  .snackBar_error div
+  {
+    background-color:#D50000 !important;
+    color:white;
+  }
+  .snackBar_error div div span
+  {
+    color:white;
+  }
+}

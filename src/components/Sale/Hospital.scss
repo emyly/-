@@ -1,0 +1,24 @@
+:global{
+  .HospitalList{
+    height: 300px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    float:left;
+    margin-top: 6px;
+    padding: 6px;
+    background-color:rgba(25, 161, 255, 0.0784314);
+    .HospitalListItem{
+      height:50px!important;
+      font-family:SourceHanSansCN-Regular!important;
+      font-size: 16px!important;
+      color: rgba(0,0,0,0.54)!important;
+    }
+    input[type=checkbox]+div svg{
+      fill:rgba(151,151,151,1)!important;
+    }
+    input[type=checkbox]:checked+div svg{
+      fill:#00A0FF!important;
+    }
+  }
+}

@@ -1,0 +1,479 @@
+:global {
+  //@import 'base';
+  //@import '~normalize.css/normalize';
+  @import 'bootstrap_new';
+  // Some best-practice CSS that's useful for most apps
+  // Just remove them if they're not what you want
+  html {
+    //overflow: hidden;
+    height: 100%;
+    width: 100%;
+    outline: 0;
+    -webkit-text-size-adjust:none;
+  }
+  html,body{
+    height: 100%;
+  }
+  @media(min-width: 1920px){
+    html,body {
+      font-size: 14px;
+    }
+  }
+  @media (min-width: 1740px) and (max-width: 1919px){
+    html,body {
+      font-size: 13px;
+    }
+  }
+  @media (min-width: 1600px) and (max-width: 1739px){
+    html,body {
+      font-size: 12px;
+    }
+  }
+  @media (min-width: 1366px) and (max-width: 1599px){
+    html,body {
+      font-size: 11px;
+    }
+  }
+  @media (min-width: 1280px) and (max-width: 1365px){
+    html,body {
+      font-size: 10px;
+    }
+  }
+  @media (min-width: 1024px) and (max-width: 1279px){
+    html,body {
+      font-size: 10px;
+    }
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing:  border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+  input[type=number]{
+    //position: relative;
+  }
+  input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+  }
+  input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+  }
+  ul,li{
+    list-style: none;
+  }
+  //table{
+  //  min-width: 1000px;
+  //  overflow-x: auto;
+  //}
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12,.GoodsCol-md-7,.GoodsCol-md-5 {
+    padding-right: 5px!important;
+    padding-left: 5px!important;
+}
+  table tr td{
+    font-family: SourceHanSansCN-Regular!important;
+    background-color: #fff!important;
+    border: none!important;
+    // text-align: center!important;
+    overflow: hidden;
+  }
+  table tr td:first-child{
+    overflow: inherit!important;
+  }
+  .ContentColorOne{
+  color:#979797
+};
+  .WareContentMenu{
+    display: inline-block;
+    height: 3.8rem;
+    padding-top: 1.5rem;
+  }
+  .ContentColorTow{
+   color:#555251
+}
+  table tr{
+    border: none!important;
+  }
+  //table{
+  //  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px!important;
+  //}
+  .warning{
+    display: inline-block;
+    padding-left: 18px;
+    background: url(../static/warning.png) left center no-repeat;
+    padding-left: 18px;
+  }
+  .colTable{
+    border:1px solid rgb(243,243,243) !important;
+  }
+  .tableWidth{
+    width:10rem
+  }
+  .tableHeight{
+    height:8rem
+  }
+  .colheight{
+    height:4.4rem
+  }
+  .tableColor{
+    font-family: SourceHanSansCN-Medium;
+    font-size: 20px;
+    color: #4A4A4A;
+    line-height: 16px;
+  }
+  .tabBoderTop{
+    border-top: none!important;
+  }
+  .tabBoderLeft{
+    border-left: none!important;
+  }
+  .tabBoderRight{
+    border-right: none!important;
+  }
+  .tabBoderBottom{
+    border-bottom: none!important;
+  }
+  #cardBorderStyle{
+    box-shadow: rgba(0, 0, 0, 0.117647) 0 0 0, rgba(0, 0, 0, 0.117647) 0 0 0 !important ;
+  }
+  #WareCardTex{
+    height:auto !important;
+  }
+  .atSelectIcon{
+    display: inline-block;
+    width:38px!important;
+    height: 38px!important;
+    margin-top: 13px;
+    position: relative;
+    left: -25px;
+    background:url(../static/orderCheckIcon/icon-11.png) no-repeat;
+  }
+  .atSlectAddIcon{
+    left:-25px;
+    top:-8px
+  }
+  .atSelectTop{
+    top:13px;
+  }
+  .atSelectTop5{
+    top:8px;
+  }
+  .atSelectTop2{
+    top:17px;
+  }
+  .atSelectTop3{
+    top:9px;
+  }
+  .atSelectTop4{
+    top:-5px;
+  }
+  .atSelectLeft{
+    left:-30px;
+    top:17.5px;
+  }
+  .atSelectRight{
+    left:-30px;
+  }
+  .dialogWareScoroll{
+    max-height: 39rem;
+    overflow: auto;
+    overflow-x:hidden;
+  }
+  .dialogWareScoroll::-webkit-scrollbar
+  {
+    width: 0;
+
+  }
+  .fontNowrap{
+    white-space:nowrap
+  }
+  .inforFlex{
+    display: flex;
+  }
+  .inforWidth{
+    width:100%;
+    display: inline-block;
+  }
+  .CardOptionalContent{
+    font-family: SourceHanSansCN-Normal;
+    margin:2rem auto 0 auto;
+    display: table;
+    line-height:4rem;
+    font-size:14px;
+    color:rgba(0,0,0,0.38);
+  }
+  .CardSelecttext{
+     display:inline-block;
+     width:7rem;
+    line-height:48px;
+    text-align:right;
+    margin-right: 15px;
+  }
+  .textFlexadd{
+    display:inline-block;
+    width:104px;
+    margin-right: 15px;
+    text-align: right;
+    line-height:45px
+  }
+  .cardSlectWrite{
+    font-family:SourceHanSansCN-Normal;
+    font-size:14px;
+    display:table;
+    color:rgba(0,0,0,0.38);
+    line-height:20px;
+    margin:40px auto 0 auto;
+  }
+  /*用于调试适配的样式，textFieldStyle是公共组件AtMessage的属性*/
+  @media (max-width:768px) {
+    .AtTextFieldStyle{
+      width:15rem!important;
+  }
+    .cooperativeNotSignWidth{
+      width: 100%;
+    }
+    .credit-title, .credit-detail{
+      font-size: 18px;
+    }
+    /*授权信用的字体大小*/
+    .echartFont{
+      font-size: 30px;
+    }
+    .not-used-credit-percentage,.used-credit-percentage{
+      font-size: 28px;
+    }
+    .credit-input-title-font{
+      font-size: 16px;
+    }
+    .credit-span-result-font{
+      font-size: 16px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 992px) {
+    .AtTextFieldStyle{
+      width:19rem !important;
+    }
+    .cooperativeNotSignWidth{
+      width: 100%;
+    }
+    .col-MMd-6{
+      width: 45%;
+    }
+    .credit-title, .credit-detail{
+      font-size: 16px;
+    }
+    /*授权信用的字体大小*/
+    .echartFont{
+      font-size: 24px;
+    }
+    .not-used-credit-percentage,.used-credit-percentage{
+      font-size: 22px;
+    }
+    .credit-input-title-font{
+      font-size: 14px;
+    }
+    .credit-span-result-font{
+      font-size: 14px;
+    }
+    /*商品转移表格适配*/
+    .onetrTd{
+      width: 80px !important;
+    }
+    .towtrTd{
+      width: 80px !important;
+    }
+    .threetrTd{
+      width: 160px !important;
+    }
+    .fourtrTd{
+      width: 80px !important;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .AtTextFieldStyle{
+      width:15rem!important;
+    }
+    .cooperativeNotSignWidth{
+      width: 48%;
+    }
+    .credit-title, .credit-detail{
+      font-size: 14px;
+    }
+    /*授权信用的字体大小*/
+    .echartFont{
+      font-size: 20px;
+    }
+    .not-used-credit-percentage,.used-credit-percentage{
+      font-size: 20px;
+    }
+    .credit-input-title-font{
+      font-size: 14px;
+    }
+    .credit-span-result-font{
+      font-size: 14px;
+    }
+    /*商品转移表格适配*/
+    .onetrTd{
+      width: 80px !important;
+    }
+    .towtrTd{
+      width: 80px !important;
+    }
+    .threetrTd{
+      width: 160px !important;
+    }
+    .fourtrTd{
+      width: 80px !important;
+    }
+    .sourceDataRow{
+      th:nth-of-type(1){
+        width: 80px !important;
+      }
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1350px){
+    .col_threeTd{
+      display: none !important;
+    }
+    .sourceTtd{
+      width:410px!important;
+    }
+    .GoodsCol-md-7{
+      width:63.33%;
+    }
+    .GoodsCol-md-5{
+      width:36.67%;
+    }
+  }
+  @media (min-width: 1200px) {
+    .AtTextFieldStyle{
+      width:23.2rem!important;
+    }
+    .cooperativeNotSignWidth{
+      width: 31.95%;
+    }
+  }
+  @media (min-width: 1200px) and (max-width: 1600px){
+    .credit-title, .credit-detail{
+      font-size: 14px;
+    }
+    .echartFont{
+      font-size: 20px;
+    }
+     .not-used-credit-percentage,.used-credit-percentage{
+      font-size: 22px;
+    }
+    .credit-input-title-font{
+      font-size: 14px;
+    }
+    .credit-span-result-font{
+      font-size: 14px;
+    }
+    /*商品转移表格适配*/
+    .onetrTd{
+      width: 80px !important;
+    }
+    .towtrTd{
+      width: 80px !important;
+    }
+    .threetrTd{
+      width: 160px !important;
+    }
+    .fourtrTd{
+      width: 60px !important;
+    }
+  }
+  @media (min-width: 1600px){
+    .credit-title, .credit-detail{
+      font-size: 18px;
+    }
+    .echartFont{
+      font-size: 24px;
+    }
+    .not-used-credit-percentage,.used-credit-percentage{
+      font-size: 28px;
+    }
+    .credit-input-title-font{
+      font-size: 18px;
+    }
+    .credit-span-result-font{
+      font-size: 18px;
+    }
+    /*商品转移表格适配*/
+    .onetrTd{
+      width: 120px !important;
+    }
+    .towtrTd{
+      width: 120px !important;
+    }
+    .threetrTd{
+      width: 280px !important;
+    }
+    .fourtrTd{
+      width: 120px !important;
+    }
+  }
+  .printBottonIcon{
+    display: inline-block;
+    width: 2.4rem;
+    height: 1.6rem;
+    background:url(../static/print.png) left center no-repeat;
+  }
+  //table tr:hover td{
+  //  background-color:	transparent !important;
+  //}
+  //::-webkit-scrollbar     {
+  //  width: 10px;
+  //  background-color: #F5F5F5;
+  //}
+  //
+  //::-webkit-scrollbar-track,
+  //::-webkit-scrollbar-thumb {
+  //  border-radius: 999px;
+  //  border: 5px solid transparent;
+  //}
+  //
+  //::-webkit-scrollbar-track    {
+  //  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  //  background-color: #F5F5F5;
+  //  border-radius: 10px;
+  //}
+  //
+  //::-webkit-scrollbar-thumb     {
+  //  border-radius: 10px;
+  //  background-image: -webkit-gradient(linear,
+  //    left bottom,
+  //    left top,
+  //    color-stop(0.44, rgb(122,153,217)),
+  //    color-stop(0.72, rgb(73,125,189)),
+  //    color-stop(0.86, rgb(28,58,148)));
+  //}
+  //
+  //::-webkit-scrollbar-corner {
+  //  background: transparent;
+  //}
+
+//  .px2px(@name, @px){
+//  @{name}: round(@px / 2) * 1px;
+//  [data-dpr="2"] & {
+//    @{name}: @px * 1px;
+//  }
+//  // for mx3
+//  [data-dpr="2.5"] & {
+//    @{name}: round(@px * 2.5 / 2) * 1px;
+//  }
+//  // for 小米note
+//  [data-dpr="2.75"] & {
+//    @{name}: round(@px * 2.75 / 2) * 1px;
+//  }
+//  [data-dpr="3"] & {
+//    @{name}: round(@px / 2 * 3) * 1px
+//  }
+//  // for 三星note4
+//  [data-dpr="4"] & {
+//    @{name}: @px * 2px;
+//  }
+//}
+}

@@ -1,0 +1,86 @@
+:global{
+  .canvasList{
+    width:100%;
+    margin-top:4rem;
+    .billTitle {
+      height:5rem;
+      width: 100%;
+      background: #364356;
+      line-height: 5rem;
+      padding-left: 1rem;
+      margin: 0;
+      img{
+        display: inline-block;
+        margin-right: 1rem;
+        margin-top: -6px;
+      }
+      span{
+        font-family: PingFangSC-Medium;
+        font-size: 20px;
+        color: #FFFFFF;
+        letter-spacing: 0.71px;
+        line-height: 20px;
+      }
+    }
+    canvas{
+      border: 6px solid #364356;
+    }
+    .canvasWrapper{
+      border: 1px solid black;
+      overflow: hidden;
+      margin: 10px 0;
+      box-sizing: content-box;
+      position: relative;
+      div{
+        border: 2px solid red;
+        box-sizing: border-box;
+        position: absolute;
+      }
+    }
+  }
+
+  .imgWrapper{
+    width:100%;
+    position: relative;
+    overflow: hidden;
+    border:2px solid #364356;
+    margin-bottom:-2px;
+    img{
+      position: relative;
+      display: block;
+    }
+    div{
+      border: 2px solid red;
+      box-sizing: border-box;
+      position: absolute;
+    }
+  }
+  .imgWrapper:last-child{
+    margin-bottom:0px;
+  }
+  .filterField{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    .filterWrapper{
+      position: relative;
+      white-space: nowrap;
+      height:72px;
+      margin-right:1rem;
+      font-family: SourceHanSansCN-Regular;
+      font-size: 16px;
+      color: #555251;
+      letter-spacing: 0.57px;
+      hr{
+        border-color:#979797 !important;
+      }
+    }
+    .inputIcon{
+      position: relative;
+      top: -1px;
+      width: 2.2rem;
+      left: 90%;
+    }
+  }
+}

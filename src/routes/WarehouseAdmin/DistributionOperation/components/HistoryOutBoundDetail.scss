@@ -1,0 +1,11 @@
+:global{
+
+  .currentOutBound{
+
+      height : 500px !important;
+      overflow:auto !important;
+    }
+    .currentOutBound::-webkit-scrollbar {
+      width: 0 !important;
+    }
+}

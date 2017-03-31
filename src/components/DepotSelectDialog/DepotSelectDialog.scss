@@ -1,0 +1,77 @@
+$DDS_Card_Margin : 10px;
+$DDS_Card_size : 100px;
+:global{
+  .dialog-title{
+    font-family: SourceHanSansCN-Medium;
+    font-size: 20px;
+    color: rgba(0,0,0,0.87);
+    letter-spacing: 0px;
+    line-height: 20px;
+  }
+.DDS_Card {
+  margin-top: $DDS_Card_Margin;
+  height : $DDS_Card_size;
+  .DDS_Card_Margin{
+    margin-top: $DDS_Card_Margin
+  }
+  .DDS_Card_size{
+    height : $DDS_Card_size
+  }
+}
+
+  .DDS_Dialog_content_Margin{
+    margin : 0px 0px 10px
+  }
+
+  .Card_Float {
+    width: 120px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .Depot_Path:hover{
+    color: #87cefa;
+  }
+
+  .Depot_Card{
+    background-color: red;
+  }
+}
+
+
+
+:global{
+  .depotSelectAnimation-enter {
+    opacity: 0.01;
+    transition: opacity .3s ease-in;
+  }
+
+  .depotSelectAnimation-enter.depotSelectAnimation-enter-active {
+    opacity: 1;
+  }
+
+  .depotSelectAnimation-leave {
+    opacity: 1;
+    transition: opacity .3s ease-out;
+  }
+
+  .depotSelectAnimation-leave.depotSelectAnimation-leave-active {
+    opacity: 0.01;
+  }
+
+  .anim_fade_image {
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .anim_fade_card {
+    opacity: 1;
+    -webkit-animation-name: "opacityAnimation"; /*动画名称，需要跟@keyframes定义的名称一致*/
+    -webkit-animation-duration: 1s;/*动画持续的时间长*/
+    -webkit-animation-iteration-count: 10;/*动画循环播放的次数*/
+    -webkit-animation-delay : 0;
+  }
+}

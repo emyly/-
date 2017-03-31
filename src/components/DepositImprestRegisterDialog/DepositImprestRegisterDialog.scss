@@ -1,0 +1,30 @@
+:global {
+  .deposit-imprest-register-dialog{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    .register-content{
+      display: flex;
+      height: 45px;
+      align-items: center;
+      width: 100%;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      .img-content{
+        width: 30px;
+        height: 30px;
+      }
+      .title-content{
+        padding-left: 10px;
+        padding-right: 15px;
+        width: 100px;
+      }
+      .text-field-content{
+        height: 45px;
+      }
+    }
+  }
+}

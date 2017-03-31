@@ -1,0 +1,140 @@
+:global {
+  .goods-transfer-operating{
+    .goods-transfer-operating-left{
+      height: 100%;
+      overflow: hidden;
+      .goods-transfer-left-title-content{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        .goods-transfer-title{
+          font-family: SourceHanSansCN-Medium;
+          font-size: 18px;
+          color: rgba(0,0,0,0.87);
+          float: left;
+          line-height: 20px;
+        }
+        .goods-transfer-total{
+          font-family: SourceHanSansCN-Medium;
+          font-size: 14px;
+          color: #00A0FF;
+          padding-top: 2px;
+          float: left;
+          line-height: 20px;
+        }
+        .clearFlaot{
+          .clear{
+            clear:both;
+            height: 0;
+            width: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            overflow:hidden;
+          }
+        }
+        .barCodeTextField{
+          margin-left: 10px;
+          display: inline-block;
+          position: relative;
+          width:175px;
+        }
+        input[ type=number]{
+          width:175px;
+          height:40px;
+          line-height: 40px;
+          background: rgba(229,232,237,0.5);
+          border-radius: 2px;
+          font-family: PingFangSC-Regular;
+          font-size: 12px;
+          color: #979797;
+          text-indent: 30px;
+          outline:none;
+        }
+        input:focus {
+          border:1px solid #E5E8ED;
+        }
+        .serchicon{
+          display: block;
+          position: absolute;
+          top:10px;
+          left:5px;
+          width:21px;
+          height: 21px;
+          background:url(../../../../static/cxlsxd.png) no-repeat;
+          background-size: 21px 21px;
+        }
+      }
+      .goods-transfer-left-content{
+        width: 100%;
+        height: calc(100% - 50px);
+        min-height: 500px;
+        overflow: auto;
+        padding-right: 8px;
+        .single-listItem-content{
+          height: 100%;
+          display: flex;
+          flex-flow: column nowrap;
+        }
+      }
+    }
+    .goods-transfer-operating-right{
+      height: 100%;
+      overflow: hidden;
+      min-height: 500px;
+      .goods-transfer-right-title-content{
+        position: relative;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        line-height: 50px;
+        align-items: center;
+        .goods-transfer-flex{
+
+        }
+        .goods-transfer-title{
+          font-family: SourceHanSansCN-Medium;
+          font-size: 20px;
+          color: rgba(0,0,0,0.87);
+          letter-spacing: 0px;
+          line-height: 50px;
+        }
+        .goods-transfer-add-img{
+          width: 30px;
+          height: 30px;
+          cursor: pointer;
+          &:hover{
+            opacity: 0.8;
+          }
+        }
+        .goods-transfer-right-content{
+          width: 100%;
+          height: calc(100% - 50px);
+          overflow: auto;
+          padding-right: 8px;
+        }
+      }
+    }
+  }
+  .goods-transfer-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:60px;
+    width: 60px;
+    background: #00BE9C;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    top:100px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,22 @@
+:global {
+  .loading-page{
+    width: 100%;
+    height: 100%;
+    .loading-transition-content{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+    }
+    .loading-success-content{
+      width: 100%;
+      height: 100%;
+    }
+    .loading-fail-content{
+      
+    }
+  }
+}

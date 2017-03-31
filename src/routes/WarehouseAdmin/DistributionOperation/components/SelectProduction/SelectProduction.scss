@@ -1,0 +1,35 @@
+.content {
+  height: 600px;
+  overflow: scroll;
+}
+
+table tr .SelectStyle{
+  border-top-width: 1px!important;
+  border-top-color: #CACACA!important;
+  border-top-style: solid!important;
+  text-align: center!important;
+  padding-left: 3px;
+  padding-right: 3px;
+  text-overflow: ellipsis!important;
+  white-space: nowrap!important;
+}
+
+table tr .SelectStyleNew{
+  text-align: center!important;
+}
+
+.scroll_t{
+  transition: all 0.6s ease-in-out 0s;
+}
+
+table tr .Ds_table {
+  min-width:168px!important;
+  background:#EEEEEE!important;
+}
+
+:global{
+  .SelectProductionTable {
+    table-layout: auto!important;
+  }
+}
+

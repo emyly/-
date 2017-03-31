@@ -1,0 +1,101 @@
+:global{
+  .LogisticsDeliveryDetail_mainBox{
+    width: 100%;
+    flex-flow:row wrap;
+    justify-content: center;
+    .LogisticsDeliveryDetail_historyInfo{
+      width:100%;
+      margin:0 auto;
+      .LogisticsDeliveryDetail_Flex{
+        font-family: SourceHanSansCN-Normal;
+        display:table;
+        line-height:60px;
+        font-size: 14px;
+        margin:0 auto;
+        color:rgba(0,0,0,0.38);
+        .LogisticsDeliveryDetail_content_flex{
+          display:flex;
+          .orgSpan{
+            display: inline-block;
+            width:15rem;
+            height:2.8rem;
+            border-bottom:1px solid rgb(224,224,224);
+          }
+          .orgSpanOne{
+            width: 8rem;
+            text-align: right;
+            padding-right: 10px;
+          }
+        }
+      }
+    }
+    .LogisticsDeliveryDetail_typeInInfo{
+      display: table;
+      margin: 0 auto;
+      font-family: SourceHanSansCN-Normal;
+      font-size: 14px;
+      line-height: 48px;
+      color:rgba(0,0,0,0.38);
+      .LogisticsDeliveryDetail_leftContainer{
+        .leftContent{
+          display:inline-block;
+          min-width:100px;
+          margin-right:10px;
+        }
+        .LogisticsDeliveryDetail_leftContent{
+          display:inline-block;
+          min-width:100px;
+          margin-right:10px;
+        }
+      }
+      .LogisticsDeliveryDetail_rightContainer{
+        width: 50%;
+        height: 100%;
+        .LogisticsDeliveryDetail_rightContent{
+          width:100%;
+          height:40px;
+        }
+      }
+
+    }
+    .LogisticsDeliveryDetail_receiveInfo{
+      width: 100%;
+      height:230px;
+      border-color: #0b97c4;
+      .LogisticsDeliveryDetail_receiveInfo_content{
+        width: 100%;
+        height:200px;
+        .LogisticsDeliveryDetail_receiveInfo_leftContainer{
+          width: 20%;
+          height:100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .LogisticsDeliveryDetail_receiveInfo_leftContent{
+
+          }
+        }
+        .LogisticsDeliveryDetail_receiveInfo_rightContainer{
+          width: 50%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .LogisticsDeliveryDetail_receiveInfo_rightContent{
+            color:#979797 !important;
+          }
+        }
+      }
+
+    }
+    .LogisticsDeliveryDetail_commitBox{
+      width: 100%;
+      height:100px;
+    }
+    .logisticGatering{
+      width:100%;
+      flex-flow:row wrap;
+      justify-content: space-around;
+    }
+  }
+}

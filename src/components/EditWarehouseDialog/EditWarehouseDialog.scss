@@ -1,0 +1,36 @@
+/**
+ * Created by chenming on 2016/12/1.
+ */
+:global{
+  .EditWarehouseDialog_content{
+    height: 2.1rem;
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .EditWarehouseDialog_icon{
+    line-height: 2.1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-right: 20px;
+  }
+  .EditWarehouseDialog_Descript{
+    line-height: 2.1rem;
+    margin-left: 1.3rem;
+    font-size: 1.3rem;
+    width: 6rem;
+    font-family: PingFangSC-Regular;
+  }
+  .EditWarehouseDialog_content_third{
+    font-size: 1.3rem;
+    height: 2.1rem;
+    margin-left: 1rem;
+    width: 17.3rem;
+    margin-top: -1rem;
+  }
+  .EditWarehouseDialog_content_textFiedHeight{
+    height: 2.1rem;
+  }
+
+}

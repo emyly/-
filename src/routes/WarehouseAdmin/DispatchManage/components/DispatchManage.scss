@@ -1,0 +1,48 @@
+
+:global{
+
+  .dispatchManage{
+    width: 100%;
+    height: 100%;
+    .button-createDispatch{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin-bottom: 1em;
+    }
+  }
+
+  .dispatchManageAlert{
+    .space-between{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 1em;
+    }
+  }
+
+  .dispatchManageVerify{
+    .space-between{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 1em;
+    }
+    .span-two{
+      display: flex;
+      margin-right: 1rem;
+      margin-left: 1rem;
+      justify-content: flex-start;
+      margin-bottom: 1rem;
+    }
+  }
+
+    .span-two{
+      display: flex;
+      margin-right: 1rem;
+      margin-left: 1rem;
+      justify-content: flex-start;
+      margin-bottom: 1rem;
+    }
+
+}

@@ -1,0 +1,74 @@
+:global{
+    .chooseReceiveAddress_editCellBox{
+      border: 1px solid #E0E0E0;
+      border-radius: 2px;
+      background: #F7F7F7;
+      width: 50.5rem;
+      height: 27rem;
+      display: flex;
+      flex-direction: column;
+    }
+    .chooseReceiveAddress_infoListBox{
+        height: 9.3rem;
+        width: 50.5rem;
+        .chooseReceiveAddress_infoListContent{
+            background: #F7F7F7;
+            border: 1px solid #E0E0E0;
+            border-radius: 2px;
+            height: 8.4rem;
+            width: 50.5rem;
+            display: flex;
+            flex-direction: row;
+            .chooseReceiveAddress_infoList_info{
+                font-family: PingFangSC-Regular;
+                font-size: 14px;
+                color: #000000;
+                padding-left: 1.1rem;
+            }
+           .chooseReceiveAddress_infoList_Label{
+                height: 100%;
+                width: 1.4rem;
+                line-height: 1.3rem;
+                color: white;
+                font-size: 0.6rem;
+                display: flex;
+                text-align: center;
+                margin-left: 11rem
+            }
+            .chooseReceiveAddress_infoList_setDetault{
+                background: #9B9B9B;
+                height: 100%;
+                width: 1.4rem;
+                line-height: 1.3rem;
+                color: white;
+                font-size: 0.6rem;
+                display: flex;
+                text-align: center;
+                margin-left: 11rem;
+            }
+            .chooseReceiveAddress_infoListContent_add{
+                font-family: SourceHanSansCN-Normal;
+                font-size: 14px;
+                color: rgba(0,0,0,0.38);
+
+            }
+            .chooseReceiveAddress_infoList_edit{
+                font-family: PingFangSC-Regular;
+                font-size: 12px;
+                color: #555555;
+                width: 4rem;
+                padding-top: 1rem;
+            }
+            .chooseReceiveAddress_infoList_delete{
+                font-family: PingFangSC-Regular;
+                font-size: 12px;
+                color: #D0011B;
+                width: 4rem;
+                padding-top: 1rem;
+            }
+        }
+
+    }
+
+
+}

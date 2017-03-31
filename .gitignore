@@ -1,0 +1,13 @@
+.DS_STORE
+*.log
+.project
+node_modules
+.
+coverage
+
+.idea/
+.sonar/
+.vscode/
+/dist/
+yarn.lock
+npm-debug.log*

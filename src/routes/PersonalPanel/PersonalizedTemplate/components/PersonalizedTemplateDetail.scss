@@ -1,0 +1,29 @@
+:global{
+  .personalized-template-detail{
+    height: 100%; 
+    width: 100%;
+    .personalized-template-detail-actions{
+      width: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      .actions-message{
+        display: none;
+        padding-left: 8px;
+        font-family: SourceHanSansCN-Regular;
+        font-size: 16px;
+        color: #979797;
+        letter-spacing: .57px;
+        line-height: 20px;
+        overflow: hidden;
+        height: 20px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+    
+  }
+  
+}
+

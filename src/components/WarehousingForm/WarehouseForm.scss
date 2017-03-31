@@ -1,0 +1,124 @@
+:global{
+  .waretableWidth{
+    width:100%;
+    .WarehousingForm{
+    box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+      table tr:nth-child(2n+1) td{
+        background-color:#fff!important;
+      }
+      table tr:nth-child(2n) td{
+        background-color:rgba(207,228,255,0.3) !important;
+      }
+  }
+    .warehouseStyle{
+      //width:97%;
+      //height:100%;
+      //display:flex;
+      //margin-top: 30px;
+      //flex-direction:row-reverse;
+      //justify-content:center;
+      //flex-wrap:wrap;
+      //cursor: pointer;
+      .warehouseXZKW{
+        width:10.7rem;
+        height:10.7rem;
+        padding-top:3.5rem ;
+        background: #C1C1C1;
+        box-shadow: 0 0 2px 0 rgba(0,0,0,0.12), 0 2px 2px 0 rgba(0,0,0,0.24);
+        border-radius: 2px;
+        margin:0 15px;
+        .warehouseSelect{
+          width:10.7rem;
+          text-align: center;
+          font-family: PingFangSC-Medium;
+          font-size: 20px;
+          color: #FFFFFF;
+          letter-spacing: 0.71px;
+          line-height: 29px;
+        }
+          .wareAddicon{
+            width:10.7rem;
+            text-align: center;
+          }
+            span{
+              width:2rem;
+              height:2rem;
+              display:inline-block;
+              background:url(../../static/receving/add.png) no-repeat;
+
+            }
+      }
+      .warehouseBottonWarp{
+        width:100%;
+        height:100%;
+        display:flex;
+        flex-direction:row-reverse;
+        justify-content:flex-end;
+        flex-wrap:wrap;
+        cursor: pointer;
+        .warehouseTop{
+          margin-bottom: -1.85rem;
+          margin-left: 20px;
+          width:10.7rem;
+          height: 1.9rem;
+          font-size: 12px;
+          color: #FFE2C6;
+          letter-spacing: 0.02px;
+          line-height: 1.9rem;
+          text-align: center;
+          background: #FDA95B;
+          z-index: 1;
+          position: relative;
+          //position: absolute;
+          //top: 713px;
+          //z-index: 9999;
+        }
+        .appBarTop{
+          font-size: 20px;
+          color: #4A4A4A;
+          display: flex;
+          justify-content: space-between;
+          span:nth-of-type(1){
+            padding-top:20px;
+          }
+          span{
+            span{
+              color:#00A0FF;
+            }
+
+          }
+
+        }
+        .appBarTable{
+          table tr td{
+            font-family: SourceHanSansCN-Regular!important;
+            background-color: #fff!important;
+            border: none!important;
+            text-align: center!important;
+            padding-left: 0!important;
+            padding-right: 0!important;
+            white-space: pre-wrap !important;
+          }
+          table tr:nth-child(2n+1) td {
+            background-color: #FBFCFC !important;
+          }
+          table tr:nth-child(2n) td {
+            background-color: #E9F0FC !important;
+          }
+          #WareWldh{
+            background: #E9F0FC;
+          }
+        }
+      }
+    }
+  }
+  .bgimage{
+    background-image:url(images/11.png);
+    display:block;
+    width:30px;
+    height:30px;
+    background-repeat:no-repeat;
+  }
+
+
+}

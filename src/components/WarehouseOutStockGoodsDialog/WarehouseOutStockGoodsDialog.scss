@@ -1,0 +1,21 @@
+
+:global {
+  .warehouse-outStock-goods-dailog{
+    .warehouse-path-content{
+      height: 40px;
+      line-height: 40px;
+      margin-top: 20px;
+      padding-left: 20px;
+      background: #eff7ff;
+      .warehouse-path-name-a{
+        font-family: SourceHanSansCN-Regular;
+        font-size: 16px;
+        color: rgba(0,0,0,0.54);
+        line-height: 16px;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

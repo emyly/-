@@ -1,0 +1,110 @@
+
+:global{
+  .inventorySee{
+    height: 100%;
+    ul,li,body,div{
+      list-style:none;
+      margin: 0;
+      border: 0;
+      padding: 0;
+    }
+    .horizon{
+      height:0;
+      border-bottom:1px solid #dbdbdb;
+    }
+    .inventoryTable td,th{
+      text-align: center !important;
+    }
+    .inventoryTableheader th{
+      font-family: SourceHanSansCN-Bold;
+      font-size: 18px !important;
+      color: #6D93C1 !important;
+      letter-spacing: 0.26px;
+    }
+    .headLogo{
+      float: left;
+      height:40px;
+      width:5px;
+      margin-right: 8px;
+    }
+    .KWLI{
+      height: 70px;
+      line-height:70px;
+      padding-left:50px;
+      position: relative;
+      span{
+        line-height:70px;
+      }
+    }
+    .headTitle{
+      font-family: SourceHanSansCN-Bold;
+      font-size: 18px;
+      color: #2C4669;
+      padding:0;
+      margin:0;
+      height:40px;
+      line-height:40px;
+    }
+    .verticalLine{
+      width: 0;
+      height: 30px;
+      border-left: 1px solid #00bfff;
+      position: absolute;
+      left: 21px;
+      top: 54px;
+    }
+    .LiImg{
+      display: inline-block;
+      height: 42px;
+      position: absolute;
+      left: 0;
+      top: 14px;
+    }
+    //.KWLI::before{
+    //  content: '';
+    //  display: inline-block;
+    //  width:50px;
+    //  height:50px;
+    //  background: url('/fg-128.png') no-repeat 50% 50%;
+    //}
+    .content{
+      padding:0 20px;
+      margin-bottom:20px;
+    }
+    .inventorySee-Card-List{
+      //width:7.55rem;
+      //height:4rem;
+      font-family: 'SourceHanSansCN-Regular.otf';
+      background: #FFFFFF;
+      box-shadow: 0 0 2px 0 rgba(0,0,0,0.12), 0 2px 2px 0 rgba(0,0,0,0.24);
+      border-radius: 2px;
+      .ListItem{
+        height:56px;
+        background: #364356;
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        color: #FFFFFF;
+        line-height: 56px;
+        li{
+          i{
+            display: inline-block;
+            width:20px;
+            height: 20px;
+            position: relative;
+          }
+
+        }
+      }
+
+    }
+  }
+  .goback{
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    top: 13px;
+    left: calc(5% - 27px);
+    cursor: pointer;
+  }
+}

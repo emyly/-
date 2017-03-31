@@ -1,0 +1,105 @@
+:global{
+
+  .box{
+    width: 100%;
+    height: 50%;
+  }
+  .LogisticsEditDialog_title{
+    text-align: center;
+  }
+  .headerContent{
+    width: 100%;
+    height: 20%;
+  }
+
+  .LogisticsEditDialog_leftContainer{
+    width: 30%;
+    height:100%;
+    float: left;
+    .LogisticsEditDialog_leftContainer_basic{
+      background-color: aliceblue;
+      .LogisticsEditDialog_leftContent{
+        width: 80px;
+        height: 40px;
+        padding:0px;
+        margin:0px;
+      }
+    }
+    .LogisticsEditDialog_leftContainer_adress{
+      background-color: antiquewhite;
+      .LogisticsEditDialog_leftContent{
+        width: 120px;
+        height: 40px;
+        padding:0px;
+        margin:0px;
+      }
+    }
+    .LogisticsEditDialog_leftContainer_cost{
+      background-color: aqua;
+      .LogisticsEditDialog_leftContent{
+        width: 120px;
+        height: 40px;
+        padding:0px;
+        margin:0px;
+      }
+      .LogisticsEditDialog_leftContent_totalPrice{
+        width: 80px;
+        height: 40px;
+        padding:0px;
+        margin:0px;
+        background-color: coral;
+
+      }
+
+    }
+
+  }
+  .LogisticsEditDialog_rightContainer{
+    padding:0px;
+    margin:0px;
+    width: 70%;
+    height: 100%;
+    text-align: right;
+    float: right;
+
+    .LogisticsEditDialog_rightContainer_basic{
+      background-color: aliceblue;
+      .LogisticsEditDialog_rightContent{
+        width: 100%;
+        height: 40px;
+        padding:0px;
+        margin:0px;
+      }
+    }
+    .LogisticsEditDialog_rightContainer_adress{
+      background-color: antiquewhite;
+
+      .LogisticsEditDialog_rightContent{
+        width: 100%;
+        height: 40px;
+        padding:0px;
+        margin:0px;
+      }
+    }
+    .LogisticsEditDialog_rightContainer_cost{
+      background-color: aqua;
+      .LogisticsEditDialog_rightContent{
+        width: 100%;
+        height: 40px;
+        padding:0px;
+        margin:0px;
+      }
+      .LogisticsEditDialog_rightContent_totalPrice{
+        background-color: coral;
+        padding:0px;
+        margin:0px;
+        width: 100%;
+        height: 40px;
+      }
+    }
+
+  }
+
+
+
+}

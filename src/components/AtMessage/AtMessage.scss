@@ -1,0 +1,22 @@
+:global{
+  .atMessage__create{
+    background: rgba(239,239,244,0.8);
+    border-radius: 4px;
+    position: relative;
+    height:100px;
+    cursor: pointer;
+  }
+  .createIcon{
+
+  }
+  .createHintText{
+    line-height: 20px;
+    display:table;
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:100%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+  }
+}

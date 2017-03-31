@@ -1,0 +1,67 @@
+:global{
+  .whoName{
+    display: inline-block;
+    //margin-top: 78px;
+    .choseSb{
+      width: 100%!important;
+      height: 60px;
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap:nowrap;
+      justify-content:center ;
+    }
+    .atSelectIcon{
+      position: absolute;
+      top:-13px;
+      left: auto;
+      right: 0;
+    }
+  }
+  .createStockOrder{
+    .orderWidth{
+      width: 100% !important;
+    }
+  .choseSb>div{
+    font-family: SourceHanSansCN-Regular;
+    font-size: 14px;
+    color: rgba(0,0,0,0.38);
+    height: 54px;
+    line-height: 30px;
+  }
+  .choseSb>div:first-child{
+    margin-right: 30px;
+    text-align: right;
+    width: 100px;
+  }
+  .whoName{
+    display: inline-block;
+    //margin-top: 78px;
+    .choseSb{
+      width: 100%!important;
+      height: 60px;
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap:nowrap;
+      justify-content:center ;
+    }
+    .who{
+      display: inline-block;
+      min-width: 100px;
+      margin-right: 10px;
+      font-family: SourceHanSansCN-Regular;
+      font-size: 14px;
+      color: rgba(0,0,0,0.38);
+      height: 60px;
+      line-height: 46px;
+    }
+    #orderInputStyle{
+      outline:medium;
+      border: none;
+    }
+  }
+    .addIcon2::after{
+      top: -.5rem;
+      right: 16%;
+    }
+  }
+}

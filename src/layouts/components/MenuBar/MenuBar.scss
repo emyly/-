@@ -1,0 +1,19 @@
+:global{
+    .icon{
+      overflow: hidden;
+    }
+    .sub-menu-bar{
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+    }
+    .sub-active{
+      a{
+        color: #aaa!important;
+      }
+    }
+  #leftList::-webkit-scrollbar
+  {
+    width: 0;
+  }
+}

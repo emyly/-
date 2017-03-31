@@ -1,0 +1,103 @@
+:global {
+  //.holderHeaderTable table{
+  //  table-layout: auto !important;
+  //}
+
+    .tableBody{
+      tr:nth-child(even){
+        td{
+          background: rgba(96,113,137,0.1) !important;
+        }
+      }
+      td{
+        text-align: center !important;
+        font-family: SourceHanSansCN-Regular !important;
+        font-size: 12px !important;
+        color: #607189;
+      }
+    }
+      .tableHeader{
+      th,td{
+          text-align: center !important;
+          opacity: .69 !important;
+          font-family: SourceHanSansCN-Medium;
+          font-size: 14px !important;
+          color: #fff !important;
+     }
+    }
+    .scantitle{
+      font-family: SourceHanSansCN-Bold;
+      font-size: 14px;
+      color: #5B83B4;
+      letter-spacing: 0.2px;
+      width:100%;
+    }
+    .surgerySearchWrapper{
+      background: #FFFFFF;
+      border-radius: 2px;
+      height: 40px;
+      overflow: hidden;
+      input{
+        width:24rem;
+        height: 40px;
+        line-height: 40px;
+        background:#fff url(../../../../static/surgeryRecovery/guanjianci.png) no-repeat 2% 50%;
+        padding-left:30px;
+      }
+      input[placeholder]{
+        font-family: SourceHanSansCN-Regular;
+        font-size: 14px;
+        color: #808080;
+        letter-spacing: 0.5px;
+      }
+    }
+    .mui-number {
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      letter-spacing: 0;
+      height: 1.36rem;
+      line-height: 1.36rem;
+      overflow: hidden;
+      .inputNumber{
+        width:3.7rem;
+        height: 16px;
+        outline: none;
+        border-bottom: 1px solid #b3b3b3;
+      }
+      .activeColor{
+        background:rgba(0,160,255, 1);
+      }
+      .decrease,.increase{
+        color:#00A0FF !important;
+        font-style: normal;
+        font-size: 1.2rem;
+        font-weight: 700;
+        height: 100%;
+        line-height: 100%;
+        border: none;
+        display: inline-block;
+        width: 1.15rem;
+        color: #b3b3b3;
+        background-color: #fff;
+        text-align: center;
+        outline: none;
+      }
+      .decrease{
+        float: left;
+      }
+      .increase{
+        float: right;
+      }
+    }
+    .dcol{
+      text-align: center !important;
+      border:1px solid #ddd!important;
+      padding-left: 0!important;
+      padding-right: 0!important;
+    }
+    td{
+      white-space: normal !important;
+    }
+  }

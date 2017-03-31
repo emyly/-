@@ -1,0 +1,90 @@
+:global{
+
+  .box{
+    width: 100%;
+    height: 50%;
+  }
+  .LogisticsDetailDialog_LogisticsContent{
+    width: 100%;
+    .LogisticsDetailDialog_LogisticsInfo{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content:space-between;
+      .LogisticsDetailDialog_LogisticsInfo_box {
+        width: 31.5rem;
+        height: 12.5rem;
+        display: flex;
+        flex-direction: column;
+        .LogisticsDetailDialog_LogisticsInfo_box_title{
+          font-family: SourceHanSansCN-Regular;
+          font-size: 16px;
+          color: #979797;
+          line-height: 16px;
+          margin-top: 1.1rem;
+          width:8.5rem;
+          text-align: right;
+        }
+        .LogisticsDetailDialog_LogisticsInfo_box_content{
+          font-family: PingFangSC-Regular;
+          font-size: 16px;
+          color: #4A4A4A;
+          line-height: 16px;
+          margin-top: 1.1rem;
+          width:16.5rem;
+        }
+      }
+    }
+    .LogisticsDetailDialog_priceInfo{
+      display: flex;
+      flex-direction: row;
+      width:100%;
+      height: 5rem;
+      margin-top: 1.4rem;
+      .LogisticsDetailDialog_priceInfo_box{
+        width:13.6rem;
+        height:5rem;
+        display: flex;
+        flex-direction: column;
+        .LogisticsDetailDialog_priceInfo_box_title{
+          font-family: SourceHanSansCN-Regular;
+          font-size: 14px;
+          color: #979797;
+          line-height: 16px;
+          text-align: center;
+          margin-top:1.1rem;
+          height: 1.1rem;
+        }
+        .LogisticsDetailDialog_priceInfo_box_content{
+          font-family: SourceHanSansCN-Regular;
+          font-size: 20px;
+          color: #FFA95D;
+          margin-top: 0.5rem;
+          text-align: center;
+          height: 1.4rem;
+        }
+      }
+    }
+
+  }
+  .logisticsTabel{
+      table tr:nth-child(2n+1) td {
+        background-color: #fff !important;
+      }
+      table tr:nth-child(2n) td {
+        background-color: rgba(207, 228, 255, 0.3) !important;
+      }
+      table thead tr th,table tbody tr td{
+        padding-left: 0;
+        padding-right: 0;
+      }
+      
+  }
+  .table_log{
+    thead tr th, tbody tr td{
+        padding-left: 0;
+        padding-right: 0;
+    }
+  }
+ 
+}

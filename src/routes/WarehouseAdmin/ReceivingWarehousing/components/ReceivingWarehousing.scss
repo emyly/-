@@ -1,0 +1,56 @@
+
+:global{
+  .receiving-warehousing{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .out-warehouse-check{
+    //box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+    div{
+      strong{
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 10px;
+      }
+    }
+    table tr:nth-child(2n+1) td{
+      background-color:#fff!important;
+    }
+    table tr:nth-child(2n) td{
+      background-color:rgba(207,228,255,0.3) !important;
+    }
+  }
+  .Receving-storage{
+    width:100%;
+    height: 100%;
+    background-color: white;
+    .Receving-wapper{
+      height: 100%;
+      .RecevingTop{
+        height: 130px;
+        border-bottom: 1px solid rgb(240,240,240);
+        div{
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          height: 65px;
+          line-height: 65px;
+        }
+      }
+    }
+  }
+  .col,.colRow{
+    border:1px solid black;
+    background-color: #18FFFF;
+  }
+
+  .col{
+    text-align: center !important;
+  }
+}

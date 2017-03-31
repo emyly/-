@@ -1,0 +1,79 @@
+:global{
+  .submitPage{
+    width: 100%;
+    height:100%;
+    background-color: #F8F8F8;
+    position: relative;
+    .submitPageContainer{
+      .lineStyle{
+        margin-top:28px;
+        margin-bottom: 12px;
+        border: 1px solid rgba(150,150,150,0.21);
+      }
+      #Login div input+ div svg{
+        fill:#979797!important;
+      }
+      #Login div input:checked+ div svg{
+        fill:#00A0FF!important;
+      }
+      width: 400px;
+      height:645px;
+      position: absolute;
+      top:50%;
+      left:50%;
+      margin-left: -200px;
+      .title{
+        height:60px;
+        margin-bottom: 47px;
+        .titleBorder{
+          height:47px;
+          box-sizing: content-box;
+          padding:6.5px 0;
+          margin-right: 66px;
+          text-align: right;
+          .titleContBorder{
+            height:47px;
+            border-right: 1px solid #979797;
+            box-sizing: border-box;
+            padding-right: 15px;
+            .welcome{
+              font-family: Roboto-Regular;
+              font-size: 24px;
+              color: #7ACDFF;
+              letter-spacing: 0.85px;
+              height:23.5px;
+              line-height: 23.5px;
+            }
+            .welcomeSubmit{
+              font-family: SourceHanSansCN-Regular;
+              font-size: 24px;
+              color: #555251;
+              letter-spacing: 0.85px;
+              height:23.5px;
+              line-height: 23.5px;
+            }
+          }
+
+        }
+      }
+    }
+    .footer-bottom-content{
+      width: 100%;
+      position: fixed;
+      bottom: 0px;
+      text-align: center;
+      height: 35px;
+      line-height: 35px;
+      .footer-bottom-a {
+        width: 100%;
+        color: #555;
+        font-size:14px;
+        font-family: 'SourceHanSansCN-Regular';
+        &:hover{
+          opacity: 0.8;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

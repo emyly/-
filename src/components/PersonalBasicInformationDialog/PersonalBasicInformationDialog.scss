@@ -1,0 +1,96 @@
+:global{
+  .PersonalBasicInformationDialog{
+
+  }
+  .headerWrapper{
+    background: deepskyblue;
+    padding:10px 0;
+  }
+  .headerImgWrapper{
+    height:100px;
+    width:100px;
+    border:4px solid white;
+    border-radius: 100%;
+    margin:10px auto;
+  }
+  .headerImg{
+    display: block;
+    height:100%;
+    width:100%;
+    border-radius: 100%;
+  }
+  .headerInfo{
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    /* font-weight: bold; */
+    font-family: 微软雅黑;
+    position: relative;
+    input[type='file']{
+      position: absolute;
+      left: 242px;
+      top: 8px;
+      opacity: 0;
+      width: 125px;
+    }
+  }
+  .changeImg{
+    border: 2px solid #fff;
+    border-radius: 5px;
+    line-height: 20px;
+    display: inline-block;
+    padding: 0 15px;
+  }
+  .contentWrapper{
+    padding:20px;
+  }
+  .errhint{
+    color: red;
+    padding-right: 11px;
+    text-align: right;
+  }
+  .infoHint{
+    color: #0b97c4;
+  }
+  .inputWrapper{
+    line-height: 60px;
+    width: 80%;
+    margin: 0 auto;
+    span:first-child{
+      line-height:35px;
+      display: inline-block;
+      width: 80px;
+      text-align: right;
+    }
+    input{
+      line-height:35px;
+      padding-left:10px;
+      border-radius: 3px;
+      border: 1px solid darkgrey;
+      width:350px;
+    }
+  }
+  .userName{
+    font-family: SourceHanSansCN-Bold;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: .26px;
+    line-height: 27px;
+    height: 27px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 120px;
+  }
+  .userEmail{
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 15px;
+    height: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 120px;
+  }
+}

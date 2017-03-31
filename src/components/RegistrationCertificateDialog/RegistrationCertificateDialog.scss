@@ -1,0 +1,38 @@
+:global{
+  .RegistrationCertificateDialog_title{
+      height: 2.1rem;
+      font-family: SourceHanSansCN-Regular;
+      font-size: 1.1rem;
+      color: #FFFFFF;
+      display: flex;
+      justify-content: center;
+      background: #334356;
+      line-height: 2.1rem;
+    }
+  .RegistrationCertificateDialog_tableCell{
+    height: auto;
+    display: flex;
+    line-height: 3.2rem;
+    font-size: 1rem;
+    color: #4A4A4A;
+    letter-spacing: 0px;
+    margin-bottom: 0.4rem;
+    clear: both;
+    .RegistrationCertificateDialog_tableTitle{
+      width: 30%;
+      font-family: SourceHanSansCN-Regular;
+      font-size: 1rem;
+      color: #4A4A4A;
+      letter-spacing: 0px;
+    }
+    .RegistrationCertificateDialog_tableContent{
+      font-family: SourceHanSansCN-Regular;
+      font-size: 1rem;
+      color: #4A4A4A;
+      letter-spacing: 0px;
+      width: 70%
+    }
+  }
+
+  }
+

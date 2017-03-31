@@ -1,0 +1,125 @@
+:global{
+
+  .warehouse-inventory{
+    width: 100%;
+    height: 100%;
+    .header-add-div{
+      text-align: right;
+    }
+    .dialogTitle{
+      background-color: #EFEBE9;
+      padding:10px;
+    }
+    .addWrapper{
+      display: table;
+      position: absolute;
+      right:0;
+      span{
+        display: table-cell;
+        vertical-align: middle;
+        line-height:40px;
+      }
+    }
+
+    .infoField{
+      height:50px;
+      line-height:50px;
+      background-color:#DCEDC8;
+      width:100%;
+      border:1px solid #AED581;
+      padding-left:30px;
+    }
+  }
+  .tableHeader{
+    width:100%;
+    .printTitle{
+      text-align: center;
+      margin-bottom:2rem !important;
+      font-family: PingFangSC-Medium;
+      font-size: 24px;
+      color: #364356;
+      letter-spacing: 0.85px;
+      height:20px;
+    }
+    .printInfo{
+      font-family: PingFangSC-Regular;
+      font-size: 16px;
+      color: #53504F;
+      letter-spacing: 0.57px;
+      margin-bottom:20px;
+    }
+  }
+  .A4tableHeader{
+    h2{
+      text-align: center !important;
+    }
+    .printTitle{
+      font-size: 12px;
+      text-align: center !important;
+    }
+    .printInfo{
+      font-size: 9px;
+    }
+  }
+  .infoWrapper{
+    height: 50px;
+    line-height: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    img{
+      margin-right:1rem;
+    }
+    span{
+      display: inline-block;
+      height: 50px;
+      line-height: 50px;
+      color: #000;
+    }
+    .tagTitle{
+      margin-right:2rem;
+      width:7rem;
+      color: #999;
+    }
+    .selectAdd{
+      position: absolute;
+      right:0;
+    }
+  }
+  .printTable{
+    width:100%;
+    text-align: center;
+    margin:0 auto;
+    border-collapse: collapse;
+    thead{
+      border:1px solid #9B9B9B !important;
+    }
+    td{
+      border:1px solid #9B9B9B !important;
+      padding:5px 3px;
+      text-align: center;
+      font-family: SourceHanSansCN-Regular;
+      font-size: 16px;
+      color: #53504F;
+      letter-spacing: 0.23px;
+    }
+    th{
+      background-color: #fff;
+      padding:10px 5px;
+      text-align: center;
+      font-family: SourceHanSansCN-Bold;
+      font-size: 18px;
+      color: #333333;
+      letter-spacing: 0.26px;
+    }
+  }
+  .A4table{
+    td{
+      font-size: 8px;
+    }
+    th{
+      font-size: 9px;
+    }
+  }
+
+}

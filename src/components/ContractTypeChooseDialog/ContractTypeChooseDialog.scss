@@ -1,0 +1,15 @@
+
+:global{
+
+  .contract-type-choose-dialog{
+    height: 0px;
+    width: 0px;
+    .contractRadioButton{
+      margin-top: 30px;
+    }
+    .contractRadioButton input:checked+div svg {
+      fill: #00a0ff!important;
+    }
+  }
+
+}

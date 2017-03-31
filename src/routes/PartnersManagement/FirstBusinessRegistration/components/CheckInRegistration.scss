@@ -1,0 +1,124 @@
+:global{
+  .businessForm{
+    margin: 0 10px;
+
+    .cardBusiness{
+      height: 20rem;
+      background: #FFFFFF;
+      border: 1px solid #979797;
+      margin-bottom: 2.3rem;
+      .bigImg{
+        height: 29.46rem;
+      }
+      .cardTitle{
+        height:48px;
+        line-height:48px;
+        font-family: SourceHanSansCN-Medium;
+        font-size: 1.43rem;
+        color: #FFFFFF;
+        padding-left: 37px;
+        background: #364356;
+      }
+      .tabTitle{
+        padding-left: 0;
+        position: relative;
+      }
+
+      .cardCont{
+        height: 16.4rem;
+        overflow-y: auto;
+        .noData{
+          height: 16.6rem;
+          line-height: 16.6rem;
+          font-family: SourceHanSansCN-Medium;
+          font-size: 1.43rem;
+          text-align: center;
+        }
+          .businessImg{
+            height: 16.6rem;
+            float: left;
+            width: 20%;
+            padding: 2%;
+            .imgBorder{
+              height: 10.7rem;
+              background: #F7F7F7;
+              border: 1px solid #E0E0E0;
+              border-radius: 2px;
+              cursor: pointer;
+            }
+            .picName{
+              font-family: PingFangSC-Regular;
+              padding-top: 0.8rem;
+              font-size: 16px;
+              color: #53504F;
+              height:3.6rem;
+              text-align: center;
+            }
+          }
+      }
+      .tabContent{
+        height: auto!important;
+        //.react-swipeable-view-container{
+        //  flex-wrap: wrap;
+        //}
+        .companyCommerce{
+          margin: 2rem;
+          overflow: hidden;
+          li{
+            width: 50%;
+            float: left;
+            height:2.4rem;
+            line-height:2.4rem;
+            font-family: SourceHanSansCN-Medium;
+            font-size: 1.1rem;
+            color: rgba(0,0,0,0.38);
+          }
+          .businessScope{
+            width: 100%;
+          }
+
+        }
+        .companyCommerceTableStyle{
+          margin-bottom: 2.3rem;
+
+        .tableTitle{
+          height:48px;
+          line-height: 48px;
+          font-family: SourceHanSansCN-Medium;
+          font-size: 1.43rem;
+          color: #000000;
+          border-left: 1.3rem solid #364356;
+          padding-left: 2.2rem;
+          margin: 0;
+        }
+        table{
+          thead{
+            border:none!important;
+          }
+          tr th{
+          background: rgba(207,227,255,0.30)!important;
+        }
+          tr th,td{
+            text-align: left!important;
+            font-size: 1.1rem!important;
+            color: rgba(0,0,0,0.38);
+            line-height: 14px;
+            border:none!important;
+          }
+          tr td{
+            font-family: SourceHanSansCN-Normal;
+          }
+          tr:nth-child(2n) td{
+            background: rgba(207,227,255,0.30)!important;
+          }
+        }
+        }
+      }
+
+    }
+    .tabBusiness{
+      height:auto!important;
+    }
+
+  }
+}

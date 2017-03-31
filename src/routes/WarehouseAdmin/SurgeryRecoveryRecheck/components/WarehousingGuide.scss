@@ -1,0 +1,61 @@
+:global{
+  .WarehousingGuideTable{
+    width:100%;
+    text-align: left;
+    margin:0 auto;
+    border-collapse: collapse;
+    font-family: SourceHanSansCN-Bold;
+    font-size: 16px;
+    tr td,tr th{
+      text-align: left !important;
+      letter-spacing: 0.23px;
+      border:1px solid #808080!important; ;
+      white-space: normal;
+      padding-left: 10px;
+      padding-right: 0;
+      height: 35px;
+      color: #53504F;
+      background: rgb(246, 246, 246)!important;
+    }
+    .tableWidth:nth-of-type(1) {
+      width: 10.6% !important;
+    }
+    .tableWidth:nth-of-type(2){
+      width: 18.2% !important;
+    }
+    .tableWidth:nth-of-type(3){
+      width: 21.4% !important;
+    }
+    .tableWidth:nth-of-type(4){
+      width: 10.6% !important;
+    }
+    .tableWidth:nth-of-type(5){
+      width: 12.5% !important;
+    }
+    tr th{
+      color: #4D4D4D;
+      letter-spacing: 0.26px;
+    }
+    .WarehousingGuideTableHeaderColumn{
+      text-align: left;
+      color: #000;
+      letter-spacing: 0.71px;
+    }
+    #ware_tableOne{
+      border-top:none !important;
+    }
+    #ware_tableTow{
+      border-top: 1px solid grey !important;
+    }
+  }
+  .tableA4{
+    td{
+      font-size: 8px !important;
+    }
+    th{
+      font-size: 9px !important;
+    }
+  }
+
+
+}

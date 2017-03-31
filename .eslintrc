@@ -1,0 +1,67 @@
+{
+  "parser"  : "babel-eslint",
+  "extends" : [
+    "standard",
+    "standard-react",
+    "airbnb"
+  ],
+  "plugins": [
+    "babel",
+    "react",
+    "promise"
+  ],
+  "env"     : {
+    "browser" : true,
+    "es6": true
+  },
+  "globals" : {
+    "__DEV__"      : false,
+    "__PROD__"     : false,
+    "__DEBUG__"    : false,
+    "__COVERAGE__" : false,
+    "__BASENAME__" : false
+  },
+  "rules": {
+    "semi": 0,
+    "max-len": [2, 150, 2],
+    "generator-star-spacing": 0,
+    "babel/generator-star-spacing": 1,
+    "jsx-quotes": [1, "prefer-single"],
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "quotes": ["error", "single"],
+    "no-unused-vars": [2, {"vars": "all", "args": "none"}],
+    "no-console": 2,
+    "comma-dangle": 0,
+    "import/order": 0,
+    "import/first": 0,
+    "import/extensions": 0,
+    "import/no-unresolved": 0,
+    "react/jsx-filename-extension": 0,
+    "react/no-string-refs": 1,
+    "react/sort-comp": 0,
+    "import/no-extraneous-dependencies": 0,
+    "object-curly-spacing": 1,
+    "forbid-prop-types": 0,
+    "react/forbid-prop-types": 0,
+    "consistent-return": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "prefer-template": 1,
+    "dot-notation": 1,
+    "no-param-reassign": 1,
+    "no-shadow": 1,
+    "camelcase": 1,
+    "array-callback-return": 0,
+    "no-else-return": 1,
+    "no-array-constructor": 1,
+    "arrow-parens": 1,
+    "radix": 1,
+    "no-plusplus": 0,
+    "no-restricted-syntax": 0,
+    "react/prefer-stateless-function": 0,
+    "arrow-body-style": 0,
+    "react/no-unused-prop-types": 0,
+    "import/prefer-default-export": 0,
+    "no-useless-escape": 0,
+    "no-nested-ternary": 0
+  }
+}

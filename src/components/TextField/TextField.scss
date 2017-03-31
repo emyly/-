@@ -1,0 +1,40 @@
+
+:global{
+      .newTextField{
+        background-color: #F2F7FF;
+        margin: 0 auto;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+        justify-content:flex-start;
+        height:44px;
+        line-height:44px;
+        text-align: left;
+        position:relative;
+        margin-bottom:8px;
+        width:100%;
+        .orderBlank{
+        display: none;
+        }
+        .outsideDiv{
+        padding: 0 10%;
+        }
+        input:checked+div svg{
+        fill:#00A0FF!important;
+        }
+        div svg{
+        top: 0 !important;
+        }
+        .editIcon{
+        display:inline-block;
+        width:14px;
+        height:14px;
+        background:url(../../static/bianji.png) no-repeat center center;
+        background-size:14px 14px;
+        position:absolute;
+        right:24px;
+        //z-index: 100;
+        top:15px
+        }
+    }
+}

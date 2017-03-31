@@ -1,0 +1,59 @@
+
+:global{
+
+  .credit-see{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    .credit-see-content{
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      .credit-see-form-content{
+        width: 100%;
+        height: 100%;
+        line-height: 45px;
+        font-size: 18px;
+        color: #333;
+        padding: 10px 10px 20px 30px;
+        .form-row-div{
+          display: flex;
+          height: 45px;
+          margin-right: 20px;
+          .credit-input-title-font{
+            font-family: SourceHanSansCN-Regular;
+            color: #808080;
+            line-height: 45px;
+          }
+          .credit-span-result-font{
+            font-family: SourceHanSansCN-Regular;
+            color: #000000;
+            line-height: 45px;
+          }
+          .half-row-div{
+            display: flex;
+            height: 45px;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+          }
+        }
+
+      }
+    }
+  }
+  .creditTextWidth{
+    width:140px !important;
+  }
+  .creditPosition{
+    float:right;
+    margin-top: -55px;
+  }
+  .inforFlex2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .error-span{
+    color: red;
+    font-size: 12px;
+  }
+}

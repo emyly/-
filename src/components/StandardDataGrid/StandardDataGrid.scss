@@ -1,0 +1,58 @@
+
+:global{
+  .std-datagrid-action-button{
+    display: flex;
+    align-items: center;
+  }
+
+  .std-datagrid-action-button nav{
+    margin-top:10px;
+  }
+  ::-webkit-scrollbar-track
+    {
+      -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,.2) inset;
+      background-color: transparent;
+      border-radius: 999px;
+    }
+   ::-webkit-scrollbar
+    {
+      width: 6px;
+      height: 6px;
+      background-color: #F5F5F5;
+    }
+    ::-webkit-scrollbar-thumb
+    {
+      border-radius: 999px;
+      background-clip: content-box;
+      box-shadow: 0 0 0 5px rgba(0,0,0,.1) inset;
+    }
+
+    .standard-datagrid-msg-content{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+        overflow: hidden;
+        padding-top: 12px;
+        .label{
+          border-radius: 2px;
+          font-family: SourceHanSansCN-Regular;
+          font-size: 14px;
+          color: #FFFFFF;
+          letter-spacing: 0.2px;
+        }
+        .message{
+          padding-left: 8px;
+          font-family: SourceHanSansCN-Regular;
+          font-size: 16px;
+          color: #979797;
+          letter-spacing: .57px;
+          line-height: 20px;
+          overflow: hidden;
+          height: 20px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+
+}
+

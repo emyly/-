@@ -1,0 +1,18 @@
+:global {
+  .OrderDetailsList{
+    .dcol{
+      text-align: center !important;
+      border:1px solid black;
+    }
+    .dcolH{
+      text-align: center !important;
+      border:1px solid black;
+      border-bottom:none;
+      color: #000;
+    }
+    td{
+      white-space: normal !important;
+    }
+  }
+}
+

@@ -1,0 +1,87 @@
+:globe{
+    .middleDiv{
+      width:50%;
+      float:left
+    }
+  .box{
+    width: 100%;
+    height: 50%;
+  }
+  .LogisticsDetailDialog_title{
+    text-align: center;
+  }
+  .headerContent{
+    width: 100%;
+    height: 20%;
+  }
+  .TableWidth{
+    width: 100%;
+    height: 1000px;
+  }
+  .LogisticsDetailDialog_leftContainer{
+    width: 30%;
+    height:100%;
+    float: left;
+    .LogisticsDetailDialog_leftContainer_basic{
+      background-color: aliceblue;
+      .LogisticsDetailDialog_leftContent{
+        width: 80px;
+        height: 20px;
+      }
+    }
+    .LogisticsDetailDialog_leftContainer_adress{
+      background-color: antiquewhite;
+      .LogisticsDetailDialog_leftContent{
+        width: 80px;
+        height: 20px;
+      }
+    }
+    .LogisticsDetailDialog_leftContainer_cost{
+      background-color: aqua;
+      .LogisticsDetailDialog_leftContent{
+        width: 80px;
+        height: 20px;
+      }
+      .LogisticsDetailDialog_leftContent_totalPrice{
+        background-color: coral;
+      }
+
+    }
+
+  }
+  .LogisticsDetailDialog_rightContainer{
+    width: 70%;
+    height: 100%;
+    text-align: right;
+    float: right;
+
+    .LogisticsDetailDialog_rightContainer_basic{
+      background-color: aliceblue;
+      .LogisticsDetailDialog_rightContent{
+        width: 100%;
+        height: 20px;
+      }
+    }
+    .LogisticsDetailDialog_rightContainer_adress{
+      background-color: antiquewhite;
+      .LogisticsDetailDialog_rightContent{
+        width: 100%;
+        height: 20px;
+      }
+    }
+    .LogisticsDetailDialog_rightContainer_cost{
+      background-color: aqua;
+      .LogisticsDetailDialog_rightContent{
+        width: 100%;
+        height: 20px;
+      }
+      .LogisticsDetailDialog_rightContent_totalPrice{
+        background-color: coral;
+      }
+    }
+
+  }
+
+
+
+}

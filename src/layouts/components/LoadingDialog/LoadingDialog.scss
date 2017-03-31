@@ -1,0 +1,35 @@
+:global{
+  .loading-dialog{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 99998;
+    .close-img{
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      z-index: 99999;
+      &:hover{
+        opacity: 0.8;
+      }
+    }
+  }
+  .global-loading-dialog-content {
+    z-index: 9999!important;
+    div {
+      background-color: transparent!important;
+      box-shadow: none!important;
+    }
+  }
+  .global-loading-dialog-overlay{
+    z-index: 9990!important
+  }
+  .global-loading-dialog{
+    z-index: 9999!important
+  }
+
+}

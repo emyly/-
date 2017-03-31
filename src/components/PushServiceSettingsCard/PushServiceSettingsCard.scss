@@ -1,0 +1,115 @@
+:global{
+  .push-service-settings-card{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100%;
+    width: 100%;
+    .push-up-content{
+      width: 100%;
+      height: 24.8rem;
+      display: flex;
+      flex-flow: column nowrap;
+      .push-up-bottom-developing-content{
+        width: 100%;
+        height: 58%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #f2f2f2;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .push-up-top-content{
+        width: 100%;
+        height: 42%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+      }
+      .push-up-bottom-content{
+        width: 100%;
+        height: 58%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f2f2f2;
+        padding-top: 12px;
+        padding-bottom: 12px;
+      }
+      .push-service-title{
+        font-family: SourceHanSansCN-Medium;
+        font-size: 18px;
+        color: #979797;
+        padding-top: 26px
+      }
+      .push-service-warm-text{
+        font-family: SourceHanSansCN-Medium;
+        font-size: 12px;
+        color: #979797;
+        text-align: center;
+        padding-top: 10px;
+      }
+      .push-service-interval-time{
+        font-family: SourceHanSansCN-Medium;
+        font-size: 16px;
+        color: #979797;
+        padding-top: 10px;
+        padding-left: 12px;
+      }
+      .push-service-developing{
+        font-family: SourceHanSansCN-Medium;
+        font-size: 16px;
+        color: #D8D8D8;
+        opacity: 0.8;
+        padding-top: 5px;
+      }
+    }
+    .push-down-content{
+      width: 100%;
+      height: 7.3rem;
+      border-top: 1px solid #D8D8D8;
+      display: flex;
+      flex-flow: column nowrap;
+      .push-down-top-content{
+        width: 100%;
+        height: 4.4rem;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        line-height: 4.4rem;
+        padding-left: 15px;
+        padding-right: 15px;
+        .used-total{
+          font-family: SourceHanSansCN-Medium;
+          font-size: 18px;
+          color: #FF9336;
+        }
+        .residue-total{
+          font-family: SourceHanSansCN-Medium;
+          font-size: 18px;
+          color: #979797;
+        }
+      }
+      .push-down-bottom-content{
+        width: 100%;
+        height: 2.9rem;
+        background-color: #f2f2f2;       
+        display: flex;
+      }
+    }
+  }
+  .push-service-settings-card-checkbox-content{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 35px;
+    align-items: center;
+    .push-service-settings-sub-title{
+      font-family: SourceHanSansCN-Medium;
+      font-size: 14px;
+      color: #979797;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+:global{
+  #cartTextscroll::-webkit-scrollbar
+  {
+    width: 0;
+
+  }
+  #cartText{
+    padding: 0 !important;
+    height:23.4rem;
+  }
+}

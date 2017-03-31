@@ -1,0 +1,54 @@
+:global{
+  .canvasList{
+    width:100%;
+    margin-top:4rem;
+    .billTitle {
+      height:5rem;
+      width: 100%;
+      background: #364356;
+      line-height: 5rem;
+      padding-left: 1rem;
+      margin: 0;
+      img{
+        display: inline-block;
+        margin-right: 1rem;
+        margin-top: -6px;
+      }
+      span{
+        font-family: PingFangSC-Medium;
+        font-size: 20px;
+        color: #FFFFFF;
+        letter-spacing: 0.71px;
+        line-height: 20px;
+      }
+    }
+    canvas{
+      border: 6px solid #364356;
+    }
+    .canvasWrapper{
+      border: 1px solid black;
+      margin: 10px 0;
+      box-sizing: content-box;
+    }
+  }
+
+  .imgWrapper{
+    width:100%;
+    position: relative;
+    overflow: hidden;
+    border:2px solid #364356;
+    margin-bottom:-2px;
+    img{
+      position: relative;
+      display: block;
+    }
+    div{
+      border: 3px solid red;
+      box-sizing: border-box;
+      position: absolute;
+    }
+  }
+  .imgWrapper:last-child{
+    margin-bottom:0px;
+  }
+}

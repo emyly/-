@@ -1,0 +1,75 @@
+web-pc:
+  environment:
+    - NODE_ENV=development
+    - PORT=5566
+  image: 'registry-internal.cn-hangzhou.aliyuncs.com/firstgrid/web_pc:latest'
+  labels:
+    #  平滑升级
+    aliyun.rolling_updates: 'true' 
+    #  容器数量
+    aliyun.scale: '2'
+    #  健康检查
+    aliyun.probe.url: "tcp://container:80"
+    #  健康检查的超时时间
+    aliyun.probe.timeout_seconds: "10"
+    #  在容器启动后延迟几秒开始健康检查
+    aliyun.probe.initial_delay_seconds: "3"
+    aliyun.routing.port_80: www-docker.fgrid.io
+    # 依赖的容器
+    aliyun.depends: saas,ra,fs
+  ports:
+    - 80
+  restart: always
+  external_links: 
+    - saas.local
+    - ra.local
+    - fs.local
+saas:
+  environment:
+    - NPM_CONFIG_LOGLEVEL=info
+    - NODE_ENV=test
+    - PORT=8888
+    - APP_HOME=/usr/src/app
+  image: 'registry-internal.cn-hangzhou.aliyuncs.com/firstgrid/saas:latest'
+  labels:
+    aliyun.scale: '1'
+    aliyun.rolling_updates: 'true' 
+    aliyun.routing.port_8888: saas.local;api-docker.fgrid.io
+    aliyun.probe.url: "tcp://container:8888"
+    aliyun.probe.timeout_seconds: "10"
+    aliyun.probe.initial_delay_seconds: "3"
+  ports:
+    - 8888
+  restart: always
+ra:
+  environment:
+    - NPM_CONFIG_LOGLEVEL=info
+    - NODE_ENV=test
+    - RA_PORT=8004
+  image: 'registry-internal.cn-hangzhou.aliyuncs.com/firstgrid/ra:latest'
+  labels:
+    aliyun.scale: '1'
+    aliyun.rolling_updates: 'true' 
+    aliyun.routing.port_8004: ra.local;ra-docker.fgrid.io
+    aliyun.probe.url: "tcp://container:8004"
+    aliyun.probe.timeout_seconds: "10"
+    aliyun.probe.initial_delay_seconds: "3"
+  ports:
+    - 8004/tcp
+  restart: always
+fs:
+  environment:
+    - NPM_CONFIG_LOGLEVEL=info
+    - NODE_ENV=test
+    - PORT=8002
+  image: 'registry.cn-hangzhou.aliyuncs.com/firstgrid/fileserver:latest'
+  labels:
+    aliyun.scale: '1'
+    aliyun.rolling_updates: 'true' 
+    aliyun.routing.port_8002: fs.local;fs-docker.fgrid.io
+    aliyun.probe.url: "tcp://container:8002"
+    aliyun.probe.timeout_seconds: "10"
+    aliyun.probe.initial_delay_seconds: "3"
+  ports:
+    - 8002/tcp
+  restart: always

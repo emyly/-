@@ -1,0 +1,30 @@
+:global {
+  .dataGrid {
+    table tr {
+      border-bottom: none !important;
+    }
+
+    table tr td {
+      font-family: SourceHanSansCN-Regular !important;
+      // font-size: 14px !important;
+      // color: #53504F !important;
+      letter-spacing: 0.23px !important;
+      min-width: 6rem;
+      // text-align: center !important;
+      cursor: default;
+    }
+      //table tr td:nth-child(2) {
+      //  width: 170px !important;
+      //}
+      table tr:nth-child(2n+1) td {
+        background-color: #fff !important;
+      }
+      table tr:nth-child(2n) td {
+        background-color: rgba(207, 228, 255, 0.3) !important;
+      }
+    //   table thead tr th:first-child {
+    //     background-color: #364357!important;
+    // }
+    }
+
+}

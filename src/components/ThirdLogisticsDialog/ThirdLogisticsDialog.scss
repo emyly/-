@@ -1,0 +1,90 @@
+:global{
+  .ThirdLogisticsDialog_info_container{
+    width: 50rem;
+    height: 8.5rem;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    .ThirdLogisticsDialog_Icon_box{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      width: 6.3rem;
+      height: 6.3rem;
+    .ThirdLogisticsDialog_Icon_box_Img{
+      width: 2.9rem;
+      height: 2.9rem;
+      margin-bottom: 1.4rem;
+    }
+    .ThirdLogisticsDialog_Icon_box_title{
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #4A4A4A;
+      line-height: 1rem;
+    }
+  }
+
+  }
+  .ThirdLogisticsDialog_info_logisticsInfo{
+    width: 50rem;
+    // height: 23.2rem;
+    background: #F2FAFF;
+    .ThirdLogisticsDialog_info_logisticsInfo_title{
+      // background: red;
+      width: 45.9rem;
+      height: 4.4rem;
+      margin-left: 2.2rem;
+      border-bottom: 1px solid #9b9b9b;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      .ThirdLogisticsDialog_info_logisticsInfo_titleText{
+        font-family: PingFangSC-Medium;
+        font-size: 16px;
+        color: #00A0FF;
+        letter-spacing: 0.57px;
+      }
+      .ThirdLogisticsDialog_info_logisticsInfo_logisticsNum{
+        font-family: SourceHanSansCN-Medium;
+        font-size: 14px;
+        color: #4A4A4A;
+        letter-spacing: 0.5px;
+      }
+    }
+
+  }
+  .ThirdLogisticsDialog_info_logisticsInfo_logisticsList{
+        display: flex;
+        height: 4rem;
+        width: 45.9rem;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 2rem;
+        padding-top: 1rem;
+  }
+
+  }
+/*
+.ThirdLogisticsDialog_Icon_box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 6.3rem;
+    height: 6.3rem;
+    align-items: center;
+    .ThirdLogisticsDialog_Icon_box_Img{
+      width: 2.9rem;
+      height: 2.9rem;
+      margin-bottom: 1.4rem;
+    }
+    .ThirdLogisticsDialog_Icon_box_title{
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #4A4A4A;
+      line-height: 1rem;
+    }
+  }
+*/
